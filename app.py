@@ -35,8 +35,8 @@ with imcol2:
 #     st.write("# ")
 #     st.write("# ")
 
-st.markdown("<p style='text-align: center; color: black; font-size:30px;'><span style='font-weight: bold'></span>EDD reinvents fraud prevention with GEN AI</p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: blue;margin-top: -10px ;font-size:20px;'><span style='font-weight: bold'></span>By using machine learning, EDD analyzes and investigates unemployment claims in real-time to prevent financial losses</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: black; font-size:26px;'><span style='font-weight: bold'></span>RAG-enabled assistants turn complex city data into actionable insights.</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: blue;margin-top: -10px ;font-size:20px;'><span style='font-weight: bold'></span>San José leverages AI-powered agents for fiscal insights, policy interpretation, and public service delivery</p>", unsafe_allow_html=True)
 st.markdown("<hr style=height:2.5px;margin-top:0px;width:100%;background-color:gray;>",unsafe_allow_html=True)
 
     
