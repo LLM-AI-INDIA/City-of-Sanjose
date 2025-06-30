@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_feedback import streamlit_feedback
 from streamlit_chat import message
-from src.Assisstant import policy_agent, CustomerExp  # Make sure CustomerExp is correctly imported
+from src.Assisstant import policy_agent, CustomerExp,FinanceAssistant  # Make sure CustomerExp is correctly imported
 
 def text_based(usecase_option):
     
@@ -32,6 +32,8 @@ def text_based(usecase_option):
                     vAR_response = policy_agent(user_input)
                 elif usecase_option == "Customer Experience":
                     vAR_response = CustomerExp(user_input)
+                elif usecase_option == "Financial Data Analysis":
+                    vAR_response = FinanceAssistant(user_input)
                 
                 st.session_state['past'].append(user_input)
                 st.session_state['generated'].append(vAR_response)

@@ -27,5 +27,5 @@ def main():
     elif usecase_option == "Customer Experience":
         text_based(usecase_option)
     elif usecase_option == "Financial Data Analysis":
-        pass
+        text_based(usecase_option)
 
