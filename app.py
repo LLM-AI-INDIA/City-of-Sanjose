@@ -35,8 +35,8 @@ with imcol2:
 #     st.write("# ")
 #     st.write("# ")
 
-st.markdown("<p style='text-align: center; color: black; font-size:26px;'><span style='font-weight: bold'></span>RAG-enabled assistants turn complex city data into actionable insights.</p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: blue;margin-top: -10px ;font-size:20px;'><span style='font-weight: bold'></span>San José leverages AI-powered agents for fiscal insights, policy interpretation, and public service delivery</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: black; font-size:26px;'><span style='font-weight: bold'></span>Autonomous agents simplify complex city operations and deliver actionable insights</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: blue;margin-top: -10px ;font-size:20px;'><span style='font-weight: bold'></span>San José uses an agentic approach to deliver fiscal insights, interpret policy, and improve public services</p>", unsafe_allow_html=True)
 st.markdown("<hr style=height:2.5px;margin-top:0px;width:100%;background-color:gray;>",unsafe_allow_html=True)
 
     
